@@ -1,4 +1,13 @@
 {
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A project that contains a working example of Cucumber tests performed on a mocked API using apimocker",
+  "author": "Fabián Santander",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hdmsantander/nodejs-cucumber-apimocker-example.git"
+  },
   "dependencies": {
     "apickli": "latest",
     "prettyjson": "1.x"

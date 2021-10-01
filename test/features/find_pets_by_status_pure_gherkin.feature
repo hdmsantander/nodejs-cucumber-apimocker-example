@@ -4,7 +4,7 @@ Feature: Look for pets inside of the pet store in a JSON format
     The syntax used here is in line with the Gherkin ideals to use DSL, we don't quite
     use the step definitions provided by Apickli as much here.
 
-    Background: Set accepted content to JSON for all requests in this feature
+    Background: Set accepted content to JSON for all requests in this feature and enter the pet store
         Given I set 'Accept' header to 'application/json'
         And I go to the pet section
 

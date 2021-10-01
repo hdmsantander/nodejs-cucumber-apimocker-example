@@ -1,4 +1,6 @@
 'use strict';
+/* This file bootstraps the apickli hooks and setups the environment variable detection to switch
+ API targets */
 
 const apickli = require('apickli');
 const { Before } = require('@cucumber/cucumber');
@@ -18,7 +20,7 @@ Before(function () {
     target = 'petstore.swagger.io/v2';
   }
 
-  console.log(`Using ${protocol} with the target ${target} for tests`);
+  console.log(`Using "${protocol}" with the target "${target}" for tests`);
 
   this.apickli = new apickli.Apickli(protocol, target);
   this.apickli.addRequestHeader('Cache-Control', 'no-cache');

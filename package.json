@@ -4,6 +4,10 @@
   "description": "A project that contains a working example of Cucumber tests performed on a mocked API using apimocker",
   "author": "Fabián Santander",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hdmsantander/nodejs-cucumber-apimocker-example.git"
+  },
   "scripts": {
     "init-project": "npm install && npm run gulp && npm run mock && npm run test",
     "start-mock": "cd mock/ && gulp mock",

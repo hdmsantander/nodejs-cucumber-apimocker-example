@@ -1,5 +1,10 @@
 'use strict';
 
+/* This file declares custom step definitions outside of the default ones provided by Apickli. 
+  We use some of the methods exposed by Apickli to make our life easier, this implementation just
+  serves to exemplify how to declare custom step definitions.
+ */
+
 const prettyJson = require('prettyjson');
 const assert = require('assert');
 
@@ -69,29 +74,29 @@ Then(/^I should get an empty list of pets$/, function (callback) {
   callbackWithAssertion(callback, assertion);
 });
 
-Then(/^Every pet in the list of pets should be (.*)$/, function (
-  petStatus,
-  callback
-) {
-  const petList = JSON.parse(this.apickli.getResponseObject().body);
+Then(
+  /^Every pet in the list of pets should be (.*)$/,
+  function (petStatus, callback) {
+    const petList = JSON.parse(this.apickli.getResponseObject().body);
 
-  let desiredStatus;
+    let desiredStatus;
 
-  if (petStatus === 'adoptable') {
-    desiredStatus = 'available';
+    if (petStatus === 'adoptable') {
+      desiredStatus = 'available';
+    }
+
+    if (petStatus === 'adopted') {
+      desiredStatus = 'sold';
+    }
+
+    if (petStatus === 'in the process of being adopted') {
+      desiredStatus = 'pending';
+    }
+
+    for (const pet of petList) {
+      assert(pet.status === desiredStatus);
+    }
+
+    callback();
   }
-
-  if (petStatus === 'adopted') {
-    desiredStatus = 'sold';
-  }
-
-  if (petStatus === 'in the process of being adopted') {
-    desiredStatus = 'pending';
-  }
-
-  for (const pet of petList) {
-    assert(pet.status === desiredStatus);
-  }
-
-  callback();
-});
+);
