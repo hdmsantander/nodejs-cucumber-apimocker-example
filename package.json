@@ -1,0 +1,20 @@
+{
+  "name": "api-mock-test",
+  "version": "1.0.0",
+  "description": "A project that contains a working example of Cucumber tests performed on a mocked API using apimocker",
+  "author": "Fabián Santander",
+  "license": "MIT",
+  "scripts": {
+    "init-project": "npm install && npm run gulp && npm run mock && npm run test",
+    "start-mock": "cd mock/ && gulp mock",
+    "start-tests": "cd test/ && node ./node_modules/@cucumber/cucumber/bin/cucumber-js --format json:../test/report/cucumber_report.json && gulp report || gulp report",
+    "gulp": "npm install -g gulp-cli",
+    "mock": "cd mock/ && npm install",
+    "test": "cd test/ && npm install",
+    "format": "./node_modules/prettier-standard/src/cli.js --format"
+  },
+  "devDependencies": {
+    "prettier-standard": "^16.4.1",
+    "gulp-cli": "latest"
+  }
+}

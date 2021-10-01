@@ -1,0 +1,63 @@
+{
+  "mockDirectory": "../mock/mocks",
+  "quiet": false,
+  "port": "8080",
+  "latency": 50,
+  "logRequestHeaders": true,
+  "webServices": {
+    "store/inventory": {
+      "mockFile": "store/inventory/get_200.json",
+      "contentType": "application/application/json",
+      "latency": 30,
+      "verbs": ["get"]
+    },
+    "store/order/:orderId": {
+      "latency": 15,
+      "contentType": "application/application/json",
+      "verbs": ["get"],
+      "switch": ["orderId"],
+      "responses": {
+        "get": {
+          "httpStatus": 405,
+          "mockFile": "store/order/get_405.json"
+        }
+      },
+      "switchResponses": {
+        "orderId1": {
+          "httpStatus": 200,
+          "mockFile": "store/order/get_200.json"
+        },
+        "orderId90": {
+          "httpStatus": 404,
+          "mockFile": "store/order/get_404.json"
+        }
+      }
+    },
+    "pet/findByStatus": {
+      "latency": 15,
+      "contentType": "application/application/json",
+      "verbs": ["get"],
+      "switch": ["status"],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "pet/findByStatus/empty_list_200.json"
+        }
+      },
+      "switchResponses": {
+        "statusavailable": {
+          "httpStatus": 200,
+          "mockFile": "pet/findByStatus/available_200.json"
+        },
+        "statuspending": {
+          "httpStatus": 200,
+          "mockFile": "pet/findByStatus/pending_200.json"
+        },
+        "statussold": {
+          "httpStatus": 200,
+          "mockFile": "pet/findByStatus/sold_200.json"
+        }
+      }
+    }
+  }
+}

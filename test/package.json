@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "apickli": "latest",
+    "prettyjson": "1.x"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "latest",
+    "cucumber-html-reporter": "latest",
+    "apimocker": "latest",
+    "gulp": "latest"
+  }
+}

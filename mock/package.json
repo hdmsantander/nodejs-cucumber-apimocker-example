@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "apimocker": "latest",
+    "gulp": "latest"
+  }
+}
