@@ -1,0 +1,656 @@
+[
+  {
+    "description": "    This feature allows customers to find pets in the pet store in a JSON format.\n    The syntax used here is in line with the Gherkin ideals to use DSL, we don't quite\n    use the step definitions provided by Apickli as much here.",
+    "elements": [
+      {
+        "description": "",
+        "id": "look-for-pets-inside-of-the-pet-store-in-a-json-format;finding-pets-that-are-available-for-adoption",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Finding pets that are available for adoption",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the pet section",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I look for pets that are available for adoption",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should get a list of pets",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Every pet in the list of pets should be adoptable",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "look-for-pets-inside-of-the-pet-store-in-a-json-format;finding-pets-that-were-already-adopted",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Finding pets that were already adopted",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the pet section",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I look for pets that were adopted",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should get a list of pets",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Every pet in the list of pets should be adopted",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "look-for-pets-inside-of-the-pet-store-in-a-json-format;finding-pets-that-are-in-process-of-being-adopted",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Finding pets that are in process of being adopted",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the pet section",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I look for pets that are being adopted",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should get a list of pets",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Every pet in the list of pets should be in the process of being adopted",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "look-for-pets-inside-of-the-pet-store-in-a-json-format;finding-pets-that-are-sad",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Finding pets that are sad",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to the pet section",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I look for pets that are sad",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should get an empty list of pets",
+            "match": {
+              "location": "features\\step_definitions\\custom-steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "look-for-pets-inside-of-the-pet-store-in-a-json-format",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Look for pets inside of the pet store in a JSON format",
+    "tags": [],
+    "uri": "features\\find_pets_by_status_pure_gherkin.feature"
+  },
+  {
+    "description": "  This feature allows for customers to retrieve the inventory and store orders in JSON format\n  the syntax used here is more in line with Apickli's default step definitions and does not use\n  custom step definitions.",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-store-inventory-and-orders-in-json-format;retrieving-the-store-inventory",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Retrieving the store inventory",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I GET /store/inventory",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "response code should be 200",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "response body path $.available should be ^\\d{0,}$",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "get-store-inventory-and-orders-in-json-format;retrieving-a-valid-store-order",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Retrieving a valid store order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I GET /store/order/1",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "response code should be 200",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:167"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "stepContext: \ntestOutput: \n  success:  false\n  expected: 200\n  actual:   404\n  response: \n    statusCode: 404\n    headers: \n      date:                         Fri, 01 Oct 2021 13:49:58 GMT\n      content-type:                 application/json\n      transfer-encoding:            chunked\n      connection:                   close\n      access-control-allow-origin:  *\n      access-control-allow-methods: GET, POST, DELETE, PUT\n      access-control-allow-headers: Content-Type, api_key, Authorization\n      server:                       Jetty(9.2.9.v20150224)\n    body:       {\"code\":1,\"type\":\"error\",\"message\":\"Order not found\"}"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "response body path $.id should be ^1$",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:200"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "get-store-inventory-and-orders-in-json-format;retrieving-an-invalid-store-order",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Retrieving an invalid store order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set 'Accept' header to 'application/json'",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I GET /store/order/90",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "response code should be 404",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "response body path $.type should be ^error$",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-store-inventory-and-orders-in-json-format",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Get store inventory and orders in JSON format",
+    "tags": [],
+    "uri": "features\\get_inventory.feature"
+  }
+]

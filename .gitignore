@@ -10,7 +10,7 @@ lerna-debug.log*
 
 # Ignore HTML results
 
-cucumber_report.*
+cucumber_report.html
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 
