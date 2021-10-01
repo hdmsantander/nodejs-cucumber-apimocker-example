@@ -26,7 +26,7 @@ If the variable _USE_MOCK_FOR_TESTS_ is set to **true** the mock server [must be
 
 ## Code formatting
 
-To run the formatter over the source code run `npm run format` 
+To run the formatter over the source code run `npm run format`
 
 # Project structure
 
@@ -40,9 +40,9 @@ This [part of the project](https://github.com/hdmsantander/api-mock-test/tree/ma
 
 It consists of three parts:
 
-* [Mocks directory](https://github.com/hdmsantander/api-mock-test/tree/main/mock/mocks): This directory holds the responses returned by the program, the rules which are evaluated to determine the responses to the requests receieved can be seen [here](https://github.com/hdmsantander/api-mock-test/blob/main/mock/config-generated.json).
-* [Open API specification](https://github.com/hdmsantander/api-mock-test/blob/main/mock/oas/pet-shop.yaml): This file is an Open API specification of a subset of the endpoints of the pet shop API. These endpoints are the ones mocked by this program.
-* [Gulpfile](https://github.com/hdmsantander/api-mock-test/blob/main/mock/gulpfile.js): This file allows for the execution of the mock server.
+- [Mocks directory](https://github.com/hdmsantander/api-mock-test/tree/main/mock/mocks): This directory holds the responses returned by the program, the rules which are evaluated to determine the responses to the requests receieved can be seen [here](https://github.com/hdmsantander/api-mock-test/blob/main/mock/config-generated.json).
+- [Open API specification](https://github.com/hdmsantander/api-mock-test/blob/main/mock/oas/pet-shop.yaml): This file is an Open API specification of a subset of the endpoints of the pet shop API. These endpoints are the ones mocked by this program.
+- [Gulpfile](https://github.com/hdmsantander/api-mock-test/blob/main/mock/gulpfile.js): This file allows for the execution of the mock server.
 
 ## Test suite
 
@@ -50,7 +50,7 @@ This [part of the project](https://github.com/hdmsantander/api-mock-test/tree/ma
 
 ![Test results](.img/report-sample.png)
 
-It follows the reccomended structure of a Cucumber project: 
+It follows the reccomended structure of a Cucumber project:
 
 ```
 test/

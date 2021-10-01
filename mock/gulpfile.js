@@ -6,7 +6,7 @@ var apiMockerOptions = {
   mockDirectory: '../mock/mock',
 };
 
-function mock() {
+function mock () {
   return mocker
     .createServer(apiMockerOptions)
     .setConfigFile(apiMockerOptions.config)

@@ -18,7 +18,7 @@ var reporterOptions = {
   },
 };
 
-async function report() {
+async function report () {
   reporter.generate(reporterOptions);
 }
 
