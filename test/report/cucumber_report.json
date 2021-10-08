@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2000000
             }
           },
           {
@@ -44,11 +44,11 @@
             "line": 9,
             "name": "I go to the pet section",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:28"
+              "location": "features\\step_definitions\\custom-steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -57,11 +57,11 @@
             "line": 12,
             "name": "I look for pets that are available for adoption",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:32"
+              "location": "features\\step_definitions\\custom-steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 662000000
+              "duration": 897000000
             }
           },
           {
@@ -70,11 +70,11 @@
             "line": 13,
             "name": "I should get a list of pets",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:58"
+              "location": "features\\step_definitions\\custom-steps.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 18000000
             }
           },
           {
@@ -83,11 +83,11 @@
             "line": 14,
             "name": "Every pet in the list of pets should be adoptable",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:72"
+              "location": "features\\step_definitions\\custom-steps.js:77"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           }
         ],
@@ -114,7 +114,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -127,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -136,7 +136,7 @@
             "line": 9,
             "name": "I go to the pet section",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:28"
+              "location": "features\\step_definitions\\custom-steps.js:33"
             },
             "result": {
               "status": "passed",
@@ -149,11 +149,11 @@
             "line": 17,
             "name": "I look for pets that were adopted",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:32"
+              "location": "features\\step_definitions\\custom-steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 247000000
+              "duration": 379000000
             }
           },
           {
@@ -162,11 +162,11 @@
             "line": 18,
             "name": "I should get a list of pets",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:58"
+              "location": "features\\step_definitions\\custom-steps.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -175,11 +175,11 @@
             "line": 19,
             "name": "Every pet in the list of pets should be adopted",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:72"
+              "location": "features\\step_definitions\\custom-steps.js:77"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ],
@@ -206,7 +206,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -219,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -228,7 +228,7 @@
             "line": 9,
             "name": "I go to the pet section",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:28"
+              "location": "features\\step_definitions\\custom-steps.js:33"
             },
             "result": {
               "status": "passed",
@@ -241,11 +241,11 @@
             "line": 22,
             "name": "I look for pets that are being adopted",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:32"
+              "location": "features\\step_definitions\\custom-steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 282000000
+              "duration": 347000000
             }
           },
           {
@@ -254,11 +254,11 @@
             "line": 23,
             "name": "I should get a list of pets",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:58"
+              "location": "features\\step_definitions\\custom-steps.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "line": 24,
             "name": "Every pet in the list of pets should be in the process of being adopted",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:72"
+              "location": "features\\step_definitions\\custom-steps.js:77"
             },
             "result": {
               "status": "passed",
@@ -298,7 +298,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -311,7 +311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -320,7 +320,7 @@
             "line": 9,
             "name": "I go to the pet section",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:28"
+              "location": "features\\step_definitions\\custom-steps.js:33"
             },
             "result": {
               "status": "passed",
@@ -333,11 +333,11 @@
             "line": 27,
             "name": "I look for pets that are sad",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:32"
+              "location": "features\\step_definitions\\custom-steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 213000000
+              "duration": 564000000
             }
           },
           {
@@ -346,7 +346,7 @@
             "line": 28,
             "name": "I should get an empty list of pets",
             "match": {
-              "location": "features\\step_definitions\\custom-steps.js:63"
+              "location": "features\\step_definitions\\custom-steps.js:68"
             },
             "result": {
               "status": "passed",
@@ -388,7 +388,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -414,7 +414,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 566000000
             }
           },
           {
@@ -427,7 +427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 0
             }
           },
           {
@@ -440,7 +440,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -480,7 +480,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -493,7 +493,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -506,7 +506,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217000000
+              "duration": 582000000
             }
           },
           {
@@ -519,8 +519,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2000000,
-              "error_message": "stepContext: \ntestOutput: \n  success:  false\n  expected: 200\n  actual:   404\n  response: \n    statusCode: 404\n    headers: \n      date:                         Fri, 01 Oct 2021 13:49:58 GMT\n      content-type:                 application/json\n      transfer-encoding:            chunked\n      connection:                   close\n      access-control-allow-origin:  *\n      access-control-allow-methods: GET, POST, DELETE, PUT\n      access-control-allow-headers: Content-Type, api_key, Authorization\n      server:                       Jetty(9.2.9.v20150224)\n    body:       {\"code\":1,\"type\":\"error\",\"message\":\"Order not found\"}"
+              "duration": 1000000,
+              "error_message": "stepContext: \ntestOutput: \n  success:  false\n  expected: 200\n  actual:   404\n  response: \n    statusCode: 404\n    headers: \n      date:                         Wed, 06 Oct 2021 22:45:36 GMT\n      content-type:                 application/json\n      transfer-encoding:            chunked\n      connection:                   close\n      access-control-allow-origin:  *\n      access-control-allow-methods: GET, POST, DELETE, PUT\n      access-control-allow-headers: Content-Type, api_key, Authorization\n      server:                       Jetty(9.2.9.v20150224)\n    body:       {\"code\":1,\"type\":\"error\",\"message\":\"Order not found\"}"
             }
           },
           {
@@ -599,7 +599,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 613000000
             }
           },
           {
@@ -612,7 +612,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -638,7 +638,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ],
@@ -652,5 +652,126 @@
     "name": "Get store inventory and orders in JSON format",
     "tags": [],
     "uri": "features\\get_inventory.feature"
+  },
+  {
+    "description": "  Como un usuario del servicio de saludos quiero que la aplicación me salude por mi nombre.",
+    "elements": [
+      {
+        "description": "",
+        "id": "saludo-por-parte-de-la-aplicación;saludos-con-el-nombre-de-las-personas",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Saludos con el nombre de las personas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "parameter",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "name",
+                      "fabian"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set query parameters to",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I GET `apigeeDomain`/jcallout-maven/`deploymentSuffix`",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "response code should be 200",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:167"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "stepContext: \ntestOutput: \n  success:  false\n  expected: 200\n  actual:   404\n  response: \n    statusCode: 404\n    headers: \n      date:                         Wed, 06 Oct 2021 22:45:37 GMT\n      content-type:                 text/html\n      content-length:               146\n      connection:                   close\n      server:                       nginx\n      vary:                         Accept-Encoding\n      access-control-allow-origin:  *\n      access-control-allow-methods: GET, POST, OPTIONS\n      access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type\n    body: \n      \"\"\"\n        <html>\r\n        <head><title>404 Not Found</title></head>\r\n        <body>\r\n        <center><h1>404 Not Found</h1></center>\r\n        <hr><center>nginx</center>\r\n        </body>\r\n        </html>\r\n        \n      \"\"\""
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "response body path $.mensaje should be Hello fabian!",
+            "match": {
+              "location": "node_modules\\apickli\\apickli-gherkin.js:200"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "saludo-por-parte-de-la-aplicación",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Saludo por parte de la aplicación",
+    "tags": [],
+    "uri": "features\\hello.feature"
   }
 ]
